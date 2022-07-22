@@ -1,0 +1,117 @@
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../css/fonts/Exo20Light.woff2") format("woff2"), url("../css/fonts/Exo20Light.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../css/fonts/Exo20Regular.woff2") format("woff2"), url("../css/fonts/Exo20Regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../css/fonts/Exo20Medium.woff2") format("woff2"), url("../css/fonts/Exo20Medium.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../css/fonts/Exo20SemiBold.woff2") format("woff2"), url("../css/fonts/Exo20SemiBold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../css/fonts/Exo20Bold.woff2") format("woff2"), url("../css/fonts/Exo20Bold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../css/fonts/Exo20Black.woff2") format("woff2"), url("../css/fonts/Exo20Black.woff") format("woff");
+  font-display: swap;
+}
+.general__title {
+  text-align: left;
+}
+.general__subtitle {
+  margin-bottom: 10px;
+}
+.general__label {
+  display: block;
+  margin-bottom: 15px;
+}
+.general__input {
+  padding: 6px 20px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.general__input:hover {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+.general__input:focus {
+  background-color: #fff;
+  border-color: #ebefef;
+}
+.general__btn {
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+}
+.general__desc {
+  font-size: 16px;
+}
+.general__desc:not(:last-child) {
+  margin-bottom: 5px;
+}
+.general-advantages__list {
+  padding-left: 20px;
+  margin: 0;
+}
+.general-advantages__item {
+  font-size: 16px;
+}
+.general__table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid #333;
+}
+.general__table td {
+  padding: 10px 30px;
+  font-size: 14px;
+  border: 1px solid #333;
+}
+.general__address {
+  display: inline;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.general .address {
+  display: inline;
+}
+.general__list {
+  padding-left: 20px;
+  margin: 0 0 5px;
+}
+
+.required {
+  position: relative;
+  display: inline-block;
+}
+.required::before {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  color: red;
+  content: "*";
+}

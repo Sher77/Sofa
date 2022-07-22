@@ -1,0 +1,147 @@
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../css/fonts/Exo20Light.woff2") format("woff2"), url("../css/fonts/Exo20Light.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../css/fonts/Exo20Regular.woff2") format("woff2"), url("../css/fonts/Exo20Regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../css/fonts/Exo20Medium.woff2") format("woff2"), url("../css/fonts/Exo20Medium.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../css/fonts/Exo20SemiBold.woff2") format("woff2"), url("../css/fonts/Exo20SemiBold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../css/fonts/Exo20Bold.woff2") format("woff2"), url("../css/fonts/Exo20Bold.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../css/fonts/Exo20Black.woff2") format("woff2"), url("../css/fonts/Exo20Black.woff") format("woff");
+  font-display: swap;
+}
+.style-post__title {
+  margin-bottom: 20px;
+}
+.style-post__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.style-post__info--time {
+  margin-right: auto;
+}
+.style-post__info--name {
+  display: inline-block;
+  margin-right: 10px;
+}
+.style-post__info--comments .icon-comments {
+  vertical-align: bottom;
+  fill: rgba(0, 0, 0, 0.4);
+}
+.style-post__img {
+  width: 1200px;
+  height: 675px;
+  margin-bottom: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.style-post__middle {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.style-post__desc {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+.style-post__tag {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: inherit;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+.style-post__tag:hover {
+  color: #047481;
+}
+.style-post__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+.style-post__comments-heading {
+  font-size: 20px;
+  color: #333;
+}
+.style-post__comments {
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  color: #047481;
+}
+.style-post__callback {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+.style-post__callback:not(:last-child) {
+  margin-bottom: 20px;
+}
+.style-post__callback--post {
+  padding: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+.style-post__callback--post:not(:last-child) {
+  margin-bottom: 20px;
+}
+.style-post__callback--time, .style-post__callback--name {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #333;
+}
+.style-post__callback--desc {
+  padding-left: 5px;
+  font-size: 16px;
+  color: #333;
+}
